@@ -1,2 +1,2 @@
 #!/bin/bash
-service supervisor start &
+/usr/bin/supervisord -c /etc/supervisor/supervisord.conf -n &
